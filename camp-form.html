@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crie o seu evento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1>Crie e compartilhe seu evento.</h1>
+        <p>o primeiro passo, é preencher esse formulário de inscrição.</p>
+      </header>
+      <section class="form">
+        <form action="" method="">
+          <h2>Informação do evento</h2>
+          <label for="title-event"
+            >Título do evento (mínimo 8 caracteres)</label
+          >
+          <input id="title-event" name="title-event" type="text" />
+
+          <label for="link-event">Link do evento (comece com https://)</label>
+          <input id="link-event" type="url" />
+
+          <label for="whatsapp-contact"
+            >WhatsApp para contato (somente números)</label
+          >
+          <input id="whatsapp-contact" type="tel" />
+
+          <label for="tag-event">Categoria</label>
+          <input id="tag-event" type="text" placeholder="Tipo de evento" />
+
+          <select name="coisa" id="">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+
+          <h2>Privacidade</h2>
+          <label for="email-adm"
+            >E-mail do administrador (digite um e-mail válido)</label
+          >
+          <input id="email-adm" type="email" />
+
+          <label for="password-adm"
+            >Senha de acesso para os participantes (mínimo 8 caracteres)</label
+          >
+          <input id="password-adm" type="password" />
+
+          <label for="check-priv">Evento privado</label>
+          <input id="check-priv" type="checkbox" />
+
+          <h2>Dia e hora</h2>
+          <label for="date-event">Data</label>
+          <input id="date-event" type="date" />
+
+          <label for="start-event">Das</label>
+          <input id="start-event" type="time" />
+
+          <label for="finish-event">Até</label>
+          <input id="finish-event" type="time" />
+
+          <input type="submit" value="Salvar evento" />
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
