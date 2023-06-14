@@ -107,4 +107,6 @@ fieldset legend {
   border-radius: 8px;
 
   height: 56px;
+
+  padding: 0 24px;
 }
