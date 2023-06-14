@@ -47,7 +47,26 @@ body:before {
 .form {
   background: #fafafc;
 
+  padding: 64px;
   margin-top: 38px;
+  min-height: 300px;
 
   border-radius: 8px 8px 0 0;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-family: "Archivo";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: #32264d;
+
+  width: 100%;
+
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 16px;
 }
