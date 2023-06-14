@@ -102,10 +102,9 @@ fieldset legend {
 
 .input-wrapper input {
   background: #fafafc;
-  /* Back / Lines in white */
 
   border: 1px solid #e6e6f0;
   border-radius: 8px;
 
-  box-sizing: border-box;
+  height: 56px;
 }
