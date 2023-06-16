@@ -59,7 +59,7 @@ body:before {
   z-index: -1;
 }
 
-.form {
+form {
   background: #fafafc;
 
   padding: 64px;
