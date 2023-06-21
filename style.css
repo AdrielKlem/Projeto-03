@@ -204,3 +204,19 @@ fieldset legend {
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
 }
+
+footer {
+  background: #f0f0f4;
+
+  height: 136px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px 64px;
+  margin-bottom: 91px;
+}
+
+footer .button {
+  height: 56px;
+}
