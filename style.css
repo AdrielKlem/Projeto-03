@@ -215,8 +215,28 @@ footer {
 
   padding: 40px 64px;
   margin-bottom: 91px;
+
+  border-top: 1px solid #d6d6d6;
+  border-radius: 0 0 8px 8px;
 }
 
 footer .button {
+  background: #04d361;
+
   height: 56px;
+  border: none;
+  border-radius: 8px;
+
+  font-family: "Archivo";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #fff;
+
+  transition: 0.5s;
+}
+
+footer .button:hover {
+  background: #098d44;
 }
